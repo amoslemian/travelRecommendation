@@ -1,0 +1,74 @@
+/* Navbar layout */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 30px;
+}
+  
+  /* Logo part */
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo i {
+    color: white;
+    font-size: 28px; /* make icon size match text */
+  }
+  
+  .logo h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Navigation links */
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Search bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #destinationInput {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    width: 250px;
+  }
+  
+  #btnSearch, #resetBtn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: teal;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  #btnSearch i {
+    margin-right: 5px;
+  }
+  
+  /* Hover effects */
+  #btnSearch:hover, #resetBtn:hover {
+    background-color: deepskyblue;
+  }
+  
